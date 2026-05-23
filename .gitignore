@@ -1,0 +1,32 @@
+# Arduino / ESP32 build artifacts
+build/
+*.elf
+*.bin
+*.hex
+*.map
+
+# Arduino IDE
+*.bak
+*.tmp
+
+# VS Code
+.vscode/
+
+# PlatformIO
+.pio/
+.pioenvs/
+.piolibdeps/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Python (if used for data processing)
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.env
